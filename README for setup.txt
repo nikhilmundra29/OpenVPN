@@ -1,8 +1,14 @@
-$ sudo openvpn --config vpnbook-us1-tcp443.ovpn --script-security 2 --up /etc/openvpn/update-resolv-conf.sh --down /etc/openvpn/update-resolv-conf.sh
+sudo openvpn --config vpnbook-us1-tcp443.ovpn --script-security 2 --up /etc/openvpn/update-resolv-conf.sh --down /etc/openvpn/update-resolv-conf.sh
 
-Open www.vpnbook.com and see how to install openvpn.
-Then install this zip and see how to configure DNS.
+Begin Here:
+Open http://www.vpnbook.com/howto
+Then download the attached zip and replace the file /etc/resolv.conf with the one from the zip.
+Then download any zip from openvpn tab of http://www.vpnbook.com/
+Extract the zip and open a terminal in it and paste the command on top of me after replacing "us1" with the one matching from the downloaded zip.
+Hoo yeah!!
 
+
+No need to read this!
 OpenVPN Update resolvconf
 -------------------------
 
